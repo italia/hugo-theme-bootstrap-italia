@@ -1,14 +1,9 @@
-{{ partial "head" . }}
-{{ partial "header" . }}
-<div class="container my-4">
-  <div class="article-list">
-    {{ range $index, $page := where .Data.Pages "Type" "posts" }}
-    {{ if ne $index 0 }}
-    <div class="delimiter"></div>
-    {{ end }}
-    {{ .Render "li" }}
-    {{ end }}
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <div class="col col-lg-8 my-5">
+      {{ .Content }}
+    </div>
   </div>
 </div>
-{{ partial "footer" . }}
-{{ partial "foot" . }}
+{{ end }}

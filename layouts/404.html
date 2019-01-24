@@ -1,7 +1,7 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
-<div class="container">
-  40000000000004
-</div>
-{{ partial "footer.html" . }}
-{{ partial "foot.html" . }}
+{{ define "main"}}
+<main id="main">
+  <div>
+    <h1 id="title">404 :(  <a href="{{ "/" | relURL }}">Homepage</a></h1>
+  </div>
+</main>
+{{ end }}
