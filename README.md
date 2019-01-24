@@ -20,4 +20,4 @@ Follow these steps to have a working Hugo site
 
 * Test your website with `hugo server`. 
  
-Note: in order to add content to the _main_ part of the website, you can just create a `content/_index.md` with some Markdown in it.
+Note: in order to add content to the _main_ part of the website, you can just create a `site_name/content/_index.md` with some Markdown in it.
