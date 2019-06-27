@@ -2,7 +2,8 @@ languageCode = "it-it"
 title = "Lorem Ipsum"
 
 [Params]
-  ente = "Team Digitale"
+  ente = "Ente appartenenza/Owner"
+  enteLink = ""
   siteTitle = "Inserire qui il titolo"
   siteDescription = "Inserire qui la tag line"
 
@@ -20,3 +21,54 @@ title = "Lorem Ipsum"
     { label = "Note legali", url = "#" },
     { label = "Privacy policy", url = "#" }
   ]
+
+  [Params.socials]
+    [Params.socials.facebook]
+    name = "Facebook"
+    URL = ""
+    icon = "it-facebook"
+
+    [Params.socials.github]
+    name = "GitHub"
+    URL = ""
+    icon = "it-github"
+
+    [Params.socials.twitter]
+    name = "Twitter"
+    URL = ""
+    icon = "it-twitter"
+
+ [menu]
+    # slim-header
+     [[menu.main]]
+     name = "Forum"
+     URL = ""
+     weight = 2
+
+     [[menu.main]]
+     name = "Docs"
+     URL = ""
+     weight = 3
+
+    # header-nav
+    [[menu.navbar]]
+    name = "Link 1"
+    URL = ""
+    weight = 2
+
+    [[menu.navbar]]
+    name = "Link 2"
+    URL = "link2"
+    weight = 3
+
+    [[menu.navbar]]
+    name = "Link 4"
+    URL = ""
+    parent = "Dropdown"
+    weight = 4
+
+    [[menu.navbar]]
+    name = "Link 5"
+    URL = ""
+    parent = "Dropdown"
+    weight = 5
