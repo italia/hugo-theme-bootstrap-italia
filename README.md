@@ -34,6 +34,6 @@ Follow these steps to have a working Hugo site
   
 * Edit your website `site_name/config.toml` to override rules defined in `site_name/themes/hugo-theme-bootstrap-italia/config.toml`.
 
-* Test your website with `hugo server`. For additional informations about `hugo server` command options, refer to https://gohugo.io/commands/hugo_server/
+* Test your website with `hugo server`. For additional info about `hugo server` command options, refer to https://gohugo.io/commands/hugo_server/
  
 Note: in order to add content to the _main_ part of the website, you can just create a `site_name/content/_index.md` with some Markdown in it.
