@@ -36,4 +36,22 @@ Follow these steps to have a working Hugo site
 
 * Test your website with `hugo server`. For additional info about `hugo server` command options, refer to https://gohugo.io/commands/hugo_server/
  
-Note: in order to add content to the _main_ part of the website, you can just create a `site_name/content/_index.md` with some Markdown in it.
+## Getting Started
+
+In order to add content to the website, you can just create a `site_name/content/_index.md` with some Markdown in it, ie.:
+
+```
+# h1
+
+## h2
+
+### h3
+
+paragraph
+```
+
+That should just render to something like this:
+
+<img src="https://github.com/italia/hugo-theme-bootstrap-italia/blob/master/theme-preview.png" width="800"> 
+
+_( ...more will follow)_
