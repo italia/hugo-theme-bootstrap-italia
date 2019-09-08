@@ -52,6 +52,6 @@ paragraph
 
 That should just render to something like this:
 
-<img src="https://github.com/italia/hugo-theme-bootstrap-italia/blob/master/theme-preview.png" width="800"> 
+<img src="https://github.com/francescozaia/hugo-theme-bootstrap-italia/blob/master/theme-preview.png" width="800"> 
 
 _( ...more will follow)_
