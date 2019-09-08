@@ -26,7 +26,7 @@ Follow these steps to have a working Hugo site
           └───layouts
           │
           └───static
-```
+   ```
   
 * Add this line to your `site_name/config.toml` file:
 
