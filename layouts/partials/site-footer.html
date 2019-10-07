@@ -18,6 +18,13 @@
           <div class="col-lg-4 col-md-4 pb-2">
             <h4><a href="#" title="Vai alla pagina: Lorem Ipsum">{{ .Site.Params.footerColumn2Title }}</a></h4>
             <p>{{ .Site.Params.footerColumn2Text }}</p>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                {{ range .Site.Params.footerColumn2Links }}
+                  <li><a class="list-item" href="{{ .url }}" title="{{ .label }}">{{ .label }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
           </div>
           <div class="col-lg-4 col-md-4 pb-2">
             <div class="pb-2">

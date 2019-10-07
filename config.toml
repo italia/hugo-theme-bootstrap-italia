@@ -16,6 +16,11 @@ title = "Lorem Ipsum"
 
   footerColumn2Title = "Lorem Ipsum"
   footerColumn2Text = "Lorem Ipsum"
+  footerColumn2Links = [
+    { label = "Link 1", url = "#" },
+    { label = "Link 2", url = "#" },
+    { label = "Link 3", url = "#" }
+  ]
 
   footerBottomLinks = [
     { label = "Note legali", url = "#" },
