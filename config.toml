@@ -43,17 +43,17 @@ title = "Lorem Ipsum"
     URL = ""
     icon = "it-twitter"
 
- [menu]
+  [menu]
     # slim-header
-     [[menu.main]]
-     name = "Forum"
-     URL = ""
-     weight = 2
+    [[menu.main]]
+    name = "Forum"
+    URL = ""
+    weight = 2
 
-     [[menu.main]]
-     name = "Docs"
-     URL = ""
-     weight = 3
+    [[menu.main]]
+    name = "Docs"
+    URL = ""
+    weight = 3
 
     # header-nav
     [[menu.navbar]]
