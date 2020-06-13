@@ -27,11 +27,11 @@ Follow these steps to have a working Hugo site
           │
           └───static
    ```
-  
+
 * Add this line to your `site_name/config.toml` file:
 
   `theme = "hugo-theme-bootstrap-italia"`
-  
+
 * Edit your website `site_name/config.toml` to override rules defined in `site_name/themes/hugo-theme-bootstrap-italia/config.toml`.
 
 * Test your website with `hugo server`. For additional info about `hugo server` command options, refer to https://gohugo.io/commands/hugo_server/
@@ -55,3 +55,8 @@ That should just render to something like this:
 <img src="https://github.com/francescozaia/hugo-theme-bootstrap-italia/blob/master/theme-preview.png" width="800"> 
 
 _( ...more will follow)_
+
+## Upgrading external dependencies
+
+    yarnpkg upgrade
+    make
